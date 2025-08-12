@@ -24,5 +24,4 @@ dist-ssr
 *.sw?
 
 #others
-
-/supabase-client.js
+/src/config/supabase-client.js

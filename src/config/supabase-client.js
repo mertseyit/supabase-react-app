@@ -1,7 +1,0 @@
-import { createClient } from '@supabase/supabase-js';
-
-//for more information, you can visit this site: https://supabase.com/ (visit your dashboard project page, scroll to down and you will see your API and URL information)
-const supabaseUrl = 'supabase_url';
-const supabaseKey = 'your_supabaseKey';
-
-export const supabase = createClient(supabaseUrl, supabaseKey);

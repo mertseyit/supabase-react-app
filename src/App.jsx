@@ -18,7 +18,7 @@ import {
   VStack,
 } from 'rsuite';
 import AddProductCard from './components/AddProductCard';
-import { supabase } from '../supabase-client';
+import { supabase } from './config/supabase-client';
 import { RiDeleteBin6Fill, RiEdit2Fill } from 'react-icons/ri';
 import dateFormater from './utils/dateFormater';
 
